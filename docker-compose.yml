@@ -1,0 +1,11 @@
+version: '3'
+services:
+    ros-video-grabber:
+        build: .
+        image: hdwlab/ros-video-grabber:master
+        container_name: ros-video-grabber
+        privileged: true
+        network_mode: host
+        working_dir: /opt/ros-video-grabber
+        command: roslaunch video_grabber sample.launch
+        tty: true

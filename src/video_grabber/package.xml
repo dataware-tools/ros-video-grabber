@@ -1,0 +1,23 @@
+<package format="2">
+    <name>video_grabber</name>
+    <version>0.1.0</version>
+    <description>
+        This package provides a tool for grabbing frames in a video.
+    </description>
+    <maintainer email="hayashi.daiki@hdwlab.co.jp">Daiki Hayashi</maintainer>
+    <license>MIT</license>
+
+    <url>https://</url>
+    <author>Daiki Hayashi</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>roscpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>cv_bridge</depend>
+    <depend>image_transport</depend>
+
+    <test_depend>python-mock</test_depend>
+
+    <doc_depend>doxygen</doc_depend>
+</package>

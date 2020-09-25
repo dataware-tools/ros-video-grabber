@@ -1,0 +1,18 @@
+<!-- -->
+<launch>
+
+    <!-- Configurations -->
+    <arg name="path_to_video" default="" />
+    <arg name="path_to_timestamp" default="" />
+    <arg name="frame_id" default="camera" />
+    <arg name="seek_frequency" default="60" />
+
+    <!-- Lane Detector -->
+    <node pkg="video_grabber" type="video_grabber_node" name="video_grabber" output="screen">
+        <param name="path_to_video" value="$(arg path_to_video)"/>
+        <param name="path_to_timestamp" value="$(arg path_to_timestamp)"/>
+        <param name="frame_id" value="$(arg frame_id)"/>
+        <param name="seek_frequency" value="$(arg seek_frequency)"/>
+    </node>
+
+</launch>

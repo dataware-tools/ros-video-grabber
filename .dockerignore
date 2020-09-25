@@ -1,0 +1,29 @@
+# general
+*~
+*.pyc
+\#*\#
+.\#*
+*DS_Store
+slurm-*.out
+tmp*
+.eggs/
+.hypothesis/
+.idea
+.pytest_cache/
+__pycache__/
+check_autopep8
+bats-core/
+shellcheck*
+.vscode*
+*.egg-info/
+*.pkl
+
+# ros related files/directories
+/src/CMakeLists.txt
+/devel/
+/build/
+cmake-build-debug
+
+# VSCode
+.devcontainer
+
